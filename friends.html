@@ -5,13 +5,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"
+        integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
     <title>friends | Kakao Clone</title>
 </head>
 
 <style>
-    
+
 </style>
+
 <body>
     <div class="status-bar">
         <div class="status-bar__column-left">
@@ -35,6 +37,58 @@
             <span class="header__icon"><i class="fas fa-cog"></i></span>
         </div>
     </header>
+    <main class="friends">
+        <header class="friends__header">
+            <div class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Nicolas Serrano
+                        </span>
+                        <span class="friend__status">
+                            nomadcoders.co
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="friends__plus">
+            <h5 class="friends__title">Plus friend</h5>
+            <div class="friends__friend friend">
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Plus friend
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <ul class="friends__list">
+            <h5 class="friends__title">Friends 14</h5>
+            <li class="friends__friend friend friend--lg">
+                <div class="friend__column">
+                    <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                    <div class="friend__content">
+                        <span class="friend__name">
+                            Nicolas Serrano
+                        </span>
+                        <span class="friend__status">
+                            nomadcoders.co
+                        </span>
+                    </div>
+                </div>
+                <div class="friend__cloumn">
+                    <div class="friend__now-listening">
+                         <span>IU - Love poem </span>
+                         <i class="fas fa-play"></i>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </main>
     <nav class="nav">
         <ul class="nav_list">
             <li class="nav__list-item">
@@ -51,4 +105,5 @@
         </ul>
     </nav>
 </body>
+
 </html>
