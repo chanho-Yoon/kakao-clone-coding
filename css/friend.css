@@ -2,7 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+}
+.friends .friend--lg {
+    padding-bottom: 20px;
 }
 .friend .friend__avatar {
     width: 50px;
