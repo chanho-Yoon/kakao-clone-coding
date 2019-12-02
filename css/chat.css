@@ -6,13 +6,13 @@
 .chats-body {
     padding: 0;
 }
-.chats-body .header,
-.chats-body .status-bar {
-    padding: 0px 20px;
+.chats-body .header{
+    padding: 40px 20px
 }
-.chat {
+.chat-screen {
     background-image: url("../images/chatBg.png");
-    min-height: 100vh;   
+    min-height: 100vh;
+    margin-top: 110px;
 }
 .chat__write {
     position: fixed;
