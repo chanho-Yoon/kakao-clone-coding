@@ -8,11 +8,12 @@
 
 .more__btn-list .more__btn,
 .more .more__suggestion {
-    margin-right: 40px;
+    margin-right: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+    
 }
 
 .more__btn .more__btn-title {
