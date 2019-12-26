@@ -1,23 +1,23 @@
-.status-bar{
-    position: fixed;
-    display: flex;
-    width: 100%;
-    height: 30px;
-    top: 0;
-    left: 0;
-    padding: 10px 20px;
-    align-items: center;
-    justify-content: space-between;
-    opacity: 1;
-    background-color: #f7f7f7;
-    /* border-bottom: 1px solid #fcfcfc; */
-    z-index: 1;
+.status-bar {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 30px;
+  top: 0;
+  left: 0;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+  opacity: 1;
+  background-color: #f7f7f7;
+  /* border-bottom: 1px solid #fcfcfc; */
+  z-index: 1;
 }
 
 .status-bar i {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 .status-bar .status-bar__battery-level {
-    margin-left: 5px;
+  margin-left: 5px;
 }
