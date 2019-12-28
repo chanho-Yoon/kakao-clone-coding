@@ -5,4 +5,4 @@ HTML5/CSS 공부를 위해 모바일 카카오톡을 웹으로 비슷하게 만�
 
 <hr>
 
-Link : https://chanho-yoon.github.io/kakao-clone-coding
+[kakao clone 바로가기](https://chanho-yoon.github.io/kakao-clone-coding)
